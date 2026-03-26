@@ -1,0 +1,5 @@
+program {
+    func main() {
+        print("Hello, C#+!")
+    }
+}

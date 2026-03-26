@@ -1,0 +1,13 @@
+namespace Demo {
+    class Pessoa {
+        public string Nome { get; set; }
+        public int Idade { get; set; }
+    }
+
+    func main() {
+        Pessoa p = new Pessoa();
+        p.Nome = "Patrícia";
+        p.Idade = 25;
+        print(p.Nome);
+    }
+}
